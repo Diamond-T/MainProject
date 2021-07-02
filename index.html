@@ -9,10 +9,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="main.css">
 <title>Title</title>
-
+</head>
 <!--Links to htmls + nav bar + buttons-->
-
+<body>
 <nav class="nav ">
+<img src="Logo@2x.png" class="mx-auto mb-3" style= "max-width: 100px;">
+
+
   <a class="nav-link mx-auto mb-1 mb-lg-0" aria-current="page" href="index.html">Home</a>
   <a class="nav-link mx-auto mb-1 mb-lg-0 " href="#">Features</a>
   <a class="nav-link mx-auto mb-1 mb-lg-0 " href="#">Pricing</a>
@@ -34,62 +37,81 @@
 
 
 <!--Main Body-->
-<div class="body">
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h1 class="card-title">Focus on our Business</h1>
-    <p class="card-text">Let us Handle everything else.</p>
-    <p> Subscirption Billing, Powered with revenue retention tools and a seamles customer experience- without the technical hurdles.</p>
-    <a href="signup.html" class="btn btn-primary">Sign up Free</a>
-    <a href="#" class="btn btn-primary">Chat with Us</a>
-    <p>Already Using double tap? Sign in</p>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="body">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Focus on our Business</h1>
+            <p class="card-text">Let us Handle everything else.</p>
+            <p> Subscirption Billing, Powered with revenue retention tools and a seamles customer experience- without the technical hurdles.</p>
+            <a href="signup.html" class="btn btn-primary">Sign up Free</a>
+            <a href="#" class="btn btn-primary">Chat with Us</a>
+            <p>Already Using double tap? Sign in</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Image on the right-->
+    <div class="col-8">
+      <div class="card mx-auto mb-3" style="max-width: 540px;">
+            <img src="Header.png" class="img-fluid rounded-start" alt="...">
+          </div>
+    
   </div>
 </div>
+  <!-- <div class="body">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h1 class="card-title">Focus on our Business</h1>
+      <p class="card-text">Let us Handle everything else.</p>
+      <p> Subscirption Billing, Powered with revenue retention tools and a seamles customer experience- without the technical hurdles.</p>
+      <a href="signup.html" class="btn btn-primary">Sign up Free</a>
+      <a href="#" class="btn btn-primary">Chat with Us</a>
+      <p>Already Using double tap? Sign in</p>
+    </div>
+  </div>
 
   
 
-
-<!--Image on the right-->
-
-<div class="card mx-auto mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="Header.png" class="img-fluid rounded-start" alt="...">
-    </div>
-  </div>
-</div>
-
-<!--Start Explore-->
-<h1><center> Time to Explore</h1></center>
+<!-Start Explore-->
+<hr>
+<h1><center> Start to Explore Double Tap</h1></center>
+<p><center> A new and better way for small businesses to manage their customers base,payments <br>and keep track of internal tasks. <p></center>
 <div class="card-group">
   <div class="card">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">payments</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Page-1@2x.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Retain</small>
     </div>
   </div>
   <div class="card">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">Reporting</small>
     </div>
-  </div>
-  <div class="card">
+    </div>
+    <div class="card">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">convert</small>
+      </div>
     </div>
   </div>
 </div>
@@ -128,8 +150,9 @@
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Email Dashboard</h5>
+        <p class="card-text">Automate client responses, and keep track<br> of any communication your team has with a client</p>
+      <button type="button" class="btn btn-outline-secondary">Learn More</button>
       </div>
     </div>
   </div>
@@ -137,17 +160,20 @@
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Task Managment</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <button type="button" class="btn btn-outline-secondary">Learn More</button>
       </div>
+
     </div>
   </div>
   <div class="col">
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Analytics</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <button type="button" class="btn btn-outline-secondary">Learn More</button>
       </div>
     </div>
   </div>
@@ -155,8 +181,9 @@
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Project Calenders</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <button type="button" class="btn btn-outline-secondary">Learn More</button>
       </div>
     </div>
   </div>
@@ -165,10 +192,10 @@
 <!--Double Tap Today-->
 
 <div class="card text-center">
-  <div class="card-header">
-    Featured
+  <!--<div class="card-header">-->
   </div>
   <div class="card-body">
+
     <h5 class="card-title">Try Double Tap Today!</h5>
     <p class="card-text">Let's Get Started</p>
     <a href="#" class="btn btn-primary">Get Started</a>
@@ -186,12 +213,11 @@
 
 
 
-</head>
 
 
 
 
-<body>
+
 <!--Nav bar-->
 
 
